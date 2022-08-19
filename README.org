@@ -1,0 +1,15 @@
+#+title: SABnzbd Role
+#+author: Chris Wolf <chris@chriswolf.ch>
+
+This is a simple ansible role that installs SABnzbd.
+
+** How it works
+There are only two tasks in this role.
+
+In a first step, the PPA repository is added and in a second one, the =sabnzbd= package gets installed.
+
+** Limitations
+This role only works on debian based systems as the package is installed with the PPA repo.
+
+** Configuration
+There is no configuration for this role.

@@ -1,0 +1,9 @@
+- name: Add apt repository
+  apt_repository:
+    repo: ppa:jcfp/nobetas
+
+- name: Install sabnzbd
+  apt:
+    name: sabnzbdplus
+    state: latest
+    update_cache: yes
